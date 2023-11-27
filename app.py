@@ -1,6 +1,7 @@
 import streamlit as st
-import pickle
+import pickle 
 import pandas as pd
+import json
 
 # Load the Random Forest model
 rf_model = pickle.load(open("rf_model1", "rb"))
